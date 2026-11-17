@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#h2-hero {
+    font-size: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 30%;
+    background-color: #D9EBD3;
+    border-radius: 20px;
+}
+
+#cards-dicas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px
+}
+
+.cima-card {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.cima-card img {
+    width: 100px;
+    margin-bottom: 20px;
+    background-color: #8EC67D;
+    border-radius: 20px;
+}
+
+#cards-dicas img {
+    width: 70px;
+}
