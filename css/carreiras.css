@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #8EC67D;
+    display:flex;
+    flex-wrap:nowrap;
+    gap:38%;
+    height: 70px;
+    color:white;
+}
+header a{
+    color: white;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo img{
+    width:50%;
+    height:100%;
+}
+
+#outras{
+    display:flex;
+    width:50%;
+    gap:2rem;
+    align-items: center;
+    background-color: #9ECF8E;
+    border-radius:30px;
+    padding: 0 1rem;
+    font-size: x-large;
+}
+
+h1{
+    color: #D9EBD3;
+    background-color:#8EC67D;
+    text-align: center;
+    margin-top: 3%;
+    width: 70%;
+    margin-left:15%;
+    border-radius: 30px;
+    padding: 1%;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+    height: 50%;
+    gap: 3%;
+    width: 90%;
+    margin-left:5%;
+    border-radius: 30px;
+    background-color: #9ECF8E;
+
+}
+
+#cards_carreiras img {
+    width: 25%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+body{
+    background-color: #F5EFE6;
+}
+
+.texto{
+    color: #3d5335;
+    font-size: larger;
+}
+
+footer{
+    background-color: #8EC67D;
+    margin-top: 3%;
+}
