@@ -115,4 +115,6 @@ main{
 
 footer{
     background-color:  rgb(220, 248, 199);
-}   
+    padding: 1rem;
+    text-align: center;
+}
