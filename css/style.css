@@ -46,7 +46,7 @@ main{
 }
 
 #bem-vindo{
-    color: #D9EBD3;
+    color: #ffffff;
     background-color:#8EC67D;
     text-align: center;
     width: 70%;
@@ -55,8 +55,39 @@ main{
     padding: 1%;
 }
 
-#portal{
+#info{
+    display:flex;
+    color: rgb(0, 0, 0);
+    margin-top: 1%;
+    width: 90%;
+    height: 50%;
+    margin-left:5%;
+    padding:1%;
+    border-radius: 30px;
+    gap:5%;
+    font-size: x-large;
+    align-items: center;
+}
+
+#info img{
+    width: 45%;
+    height: 80%;
+    border-radius: 30px;
+}
+
+.titulo{
     margin-top:3%;
+    border-radius: 30px;
+    padding:0.5%;
+    width:40%;
+    margin-left: 30%;
+    color:#000000;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#portal{
+    margin-top:1.5%;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
@@ -81,3 +112,7 @@ main{
     text-decoration: none;
     color:black;
 }
+
+footer{
+    background-color:  rgb(220, 248, 199);
+}   
